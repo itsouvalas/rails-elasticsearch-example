@@ -8,7 +8,7 @@
 default['packages'].tap do |packages|
   packages['install'] = [
     {'name' => "dev-lang/erlang", 'version' => "18.3"},
-    {'name' => "dev-ruby/json", 'version' => "1.8.3"},
+    {'name' => "dev-ruby/json", 'version' => "1.8.1"},
     {'name' => "dev-lang/elixir", 'version' => "1.2.5"},
     {'name' => "media-gfx/wkhtmltopdf-bin", 'version' => "0.12.2.1-r1"},
     {'name' => "dev-util/lockrun", 'version' => "20120508"}
